@@ -1,0 +1,104 @@
+@import "../themes/wp-theme-wapa/all.css";
+
+@import "layout/wp-layout-wapa-two-column.css";
+
+/* End of Kend ui theme support ********************/
+.grayText {
+	font-weight: normal;
+	color: #868686;
+}
+
+.normalText {
+	font-weight: normal;
+}
+
+/****************** wapa datatable design ******************************/
+.wp-datatable.wp-datatable {
+	font: 400 11px Arial, Helvetica, sans-serif;
+}
+
+.wp-datatable.wp-datatable td, .wp-datatable.wp-datatable th {
+	white-space: nowrap;
+	border-left: 1px solid rgba(0, 0, 0, 0.08);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.wp-datatable.dataTable thead th, .wp-datatable.dataTable thead td {
+	white-space: nowrap;
+	border-top: 1px solid rgba(0, 0, 0, 0.08);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.wp-datatable.dataTable thead th {
+	padding: 7px 16px;
+}
+
+.wp-datatable.dataTable tbody td {
+	text-align: left;
+	padding: 5px 16px;
+}
+
+.wp-datatable.dataTable thead tr {
+	background-color: #e4f0fb;
+}
+
+.wp-datatable.dataTable thead .sorting_asc {
+	background-image: url(../../images/sort_asc_green.png);
+}
+
+.wp-datatable.dataTable thead .sorting_desc {
+	background-image: url(../../images/sort_desc_green.png);
+}
+
+.wp-datatable tr td.total {
+	background-color: #e4f0fb;
+	text-align: right;
+}
+
+.wp-datatable.highlight-total td:nth-last-child(1){
+	background-color: #e4f0fb;
+}
+
+/***************************** regular wapa table design **********************************/
+.wp-table {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	font: 400 11px Arial, Helvetica, sans-serif;
+}
+
+.wp-table th {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	text-align: right;
+	padding: 7px 8px;
+}
+
+.wp-table tr th {
+	background-color: #e4f0fb;
+}
+
+.wp-table td {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	text-align: right;
+	padding: 3px 8px;
+}
+
+.wp-table tr td.total {
+	background-color: #e4f0fb;
+}
+
+.wp-table.highlight-total td:nth-child(n+5):nth-last-child(1){
+	background-color: #e4f0fb;
+}
+
+.wp-row-highlight.marketable-reserves{
+	background-color:#e1e6ff;
+}
+.wp-row-highlight.marketable-reserves-remaining{
+	background-color:#e8fee7;
+}
+
+.hidden {
+	display: none;
+}
